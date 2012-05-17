@@ -7,9 +7,11 @@ When you start make sure you pull first before you push.
 
 DELETE:
 
-git rm -r one-of-the-directories
-git commit -m "Remove duplicated directory"
-git push origin master
+git rm -r one-of-the-directories     
+git commit -m "Remove duplicated directory"    
+git push origin master    
+
+
 
 If you have committed junk but not pushed,
 git reset --soft HEAD~1
