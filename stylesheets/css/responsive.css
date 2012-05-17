@@ -1,0 +1,110 @@
+@import '/greece2012/public/themes/semantic/stylesheets/css/reset.css';
+h2 {
+  font-family: Georgia;
+  font-size: 1.5em;
+  color: #666;
+  background-color: #ccc;
+}
+ul#boxes li {
+  font-family: Georgia;
+  font-size: 1.33em;
+  padding: 2.5em 0;
+  color: #999;
+  background-color: #e5e5e5;
+  text-align: center;
+}
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+body {
+  background: #fffeef;
+  padding-top: 150px;
+  color: white;
+}
+img {
+  max-width: 100%;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+h1 {
+  font-family: Georgia;
+  font-size: 2em;
+  padding: 1em;
+  color: white;
+}
+h1 a {
+  color: white;
+  text-decoration: none;
+}
+#nav {
+  display: inline;
+  float: left;
+  width: 22.916666666666664%;
+  margin: 0 1.0416666666666665%;
+  margin-left: 76.04166666666667%;
+  background: tomato;
+}
+#nav ul {
+  margin-right: 5em;
+  padding: 0.3em;
+  text-align: left;
+}
+#nav li {
+  display: inline;
+  margin-right: 1em;
+}
+header#top {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+header#top h1 {
+  padding: 0;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+header#top p {
+  margin-left: 2em;
+}
+#maincolumn {
+  display: inline;
+  float: left;
+  width: 72.91666666666666%;
+  margin: 0 1.0416666666666665%;
+  background: #333;
+}
+#maincolumn p {
+  margin: 0 2em 0 2em;
+  text-align: justify;
+  color: white;
+}
+#sidebar {
+  display: inline;
+  float: left;
+  width: 22.916666666666664%;
+  margin: 0 1.0416666666666665%;
+  background: orange;
+}
+@media screen and (max-width: 720px) {
+  #maincolumn,
+  #sidebar {
+    display: inline;
+    float: left;
+    width: 97.91666666666666%;
+    margin: 0 1.0416666666666665%;
+    margin-bottom: 1em;
+  }
+}

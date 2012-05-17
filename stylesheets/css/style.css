@@ -1,0 +1,71 @@
+@import '/greece2012/public/themes/semantic/stylesheets/css/reset.css';
+header#top {
+  margin-bottom: 1em;
+}
+#maincolumn {
+  display: inline;
+  float: left;
+  width: 780px;
+  margin: 0 10px;
+}
+#sidebar {
+  display: inline;
+  float: left;
+  width: 140px;
+  margin: 0 10px;
+}
+@media screen and (max-width: 720px) {
+  #maincolumn,
+  #sidebar {
+    display: inline;
+    float: left;
+    width: 940px;
+    margin: 0 10px;
+    margin-bottom: 1em;
+  }
+}
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+body {
+  background: #666666;
+}
+header#top {
+  background-color: black;
+}
+h1 {
+  font-family: Georgia;
+  font-size: 2em;
+  padding: 1em;
+  color: white;
+}
+h1 a {
+  color: white;
+  text-decoration: none;
+}
+h2 {
+  font-family: Georgia;
+  font-size: 1.5em;
+  color: #666;
+  background-color: #ccc;
+}
+ul#boxes li {
+  font-family: Georgia;
+  font-size: 1.33em;
+  padding: 2.5em 0;
+  color: #999;
+  background-color: #e5e5e5;
+  text-align: center;
+}
+#maincolumn {
+  background: #434343;
+}
